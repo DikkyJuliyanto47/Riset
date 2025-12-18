@@ -1,0 +1,25 @@
+name: madrl
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly           # jika ingin GPU ganti: cudatoolkit=11.8
+  - numpy
+  - pandas
+  - geopandas
+  - rasterio
+  - shapely
+  - requests
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+      - contextily
+      - tqdm
+      - ipykernel

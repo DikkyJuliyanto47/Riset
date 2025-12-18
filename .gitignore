@@ -1,0 +1,79 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# ===============================
+# Virtual Environment / Conda
+# ===============================
+env/
+venv/
+.venv/
+madrl/
+conda-env/
+*.conda
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ===============================
+# Data Files (BIG / SENSITIVE)
+# ===============================
+dataset/
+data/
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.tif
+*.tiff
+*.h5
+*.hdf5
+
+# ===============================
+# OSRM Cache & Logs
+# ===============================
+madrI_osrm_cache.json
+logs/
+evaluation_logs/
+evaluation_logs_banjir/
+
+# ===============================
+# Model Weights
+# ===============================
+*.pt
+*.pth
+*.ckpt
+
+# ===============================
+# Figures / Outputs
+# ===============================
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Environment files (optional)
+# ===============================
+.env
+.env.*
