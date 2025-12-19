@@ -2,8 +2,11 @@
 import os
 
 # Data paths - sesuaikan jika perlu
-BASE_DIR = os.getcwd()
-DATA_DIR = os.path.join(BASE_DIR, "dataset")
+# BASE_DIR = os.getcwd()
+# DATA_DIR = os.path.join(BASE_DIR, "dataset")
+#ganti path karo iki
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "dataset"
 
 FLOOD_SHP_PATH = os.path.join(DATA_DIR, "Genangan_Revisi_Lagi.shp")
 EVAC_GEOJSON_PATH = os.path.join(
